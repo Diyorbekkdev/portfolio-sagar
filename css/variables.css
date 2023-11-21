@@ -1,4 +1,14 @@
 :root{
-    --priamry-color: #030712;
     --white: #fff;
-} 
+    --light-gray: #F3F4F6;
+    --dolphin-gray: #E5E7EB;
+    --cloudy-sky-gray: #D1D5DB;
+    --gray: #9CA3AF;
+    --shark-gray: #6B7280;
+    --mouse-body-gray: #4B5563;
+    --wet-asphalt-gray: #374151;
+    --light-storm-gray: #1F2937;
+    --dark-storm-gray: #111827;
+    --priamry-color: #030712;
+    --light-green:#10B981; 
+}
