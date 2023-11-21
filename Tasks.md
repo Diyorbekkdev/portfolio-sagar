@@ -10,6 +10,7 @@ Ranglardan yoki umumiy designdan foydalanayotgan bo'lsangiz variables lardan foy
         Img va iconlarni download qilasiz va optimize qilish kerak
         Address: https://tinypng.com/
 ```
+
 ```
 - Ruslan
     Header
