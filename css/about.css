@@ -1,0 +1,16 @@
+
+.saqar_info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 192px;
+}
+
+.saqar_curious p {
+    color: var(--cloudy-sky-gray);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
