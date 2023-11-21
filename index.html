@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Header start -->
@@ -13,7 +15,7 @@
         <div class="container">
             <nav>
                 <div class="icon">
-                    <img src="./assets/icons/logo.svg" alt="">
+                    <img src="./assets/icons/logo.svg" alt="svg">
                 </div>
                 <div class="dowload">
                     <ul>
@@ -22,7 +24,7 @@
                         <li><a href="#testimonials">Testimonials</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
-                    <img src="./assets/icons/dark_mode.svg" alt="">
+                    <img src="./assets/icons/dark_mode.svg" alt="svg">
                     <button>Download CV</button>
                 </div>
             </nav>
@@ -32,30 +34,63 @@
 
     <!-- Main start -->
     <main>
-        <section id="hero" class="hero">
-            
-        </section>
+         <section id="hero" class="hero">
+            <div class="container">
+                <div class="row">
+                    <div class="hi">
+                        <div class="big">
+                            <h1>Hi, I’m Sagar <span>👋</span> </h1>
+                            
+                        </div>
+                        <p class="advice">I'm a full stack developer (React.js & Node.js) with a focus on creating (and occasionally designing) exceptional digital experiences that are fast, accessible, visually appealing, and responsive. Even though I have been creating web applications for over 7 years, I still love it as if it was something new.</p>
+                        <div class="locate">
+                            <div class="locotion">
+                                <img src="./assets/icons/location-icon.svg" alt="svg">
+                                <p>Ahmedabad, India</p>
+                            </div>
+                            <div class="circle">
+                                <div class="aim"></div>
+                                <p>Available for new projects</p>
+                            </div>
+
+                        </div>
+                        <div class="three_icon">
+                            <img src="./assets/icons/github-icon.svg" alt="svg">
+                            <img src="./assets/icons/twitter-icon.svg" alt="svg">
+                            <img src="./assets/icons/figma-icon.svg" alt="svg">
+                        </div>
+                    </div>
+                    <div class="face">
+                        <img src="./assets/images/hero/Pic Container.png" alt="png">
+                    </div>
+                </div>
+            </div>
+        </section> 
         
         <section id="about__us" class="about__us">
             <div class="container">
-                <button>About me</button>
-                <div class="saqar_info">
-                    <img src="./assets/images/about/saqar_img.png" alt="">
-                    <div class="saqar_curious">
-                        <p>I'm a passionate, self-proclaimed designer who specializes in full stack development (React.js & Node.js). I am very enthusiastic about bringing the technical and visual aspects of digital products to life. User experience, pixel perfect design, and writing clear, readable, highly performant code matters to me.</p>
-                        <p>I began my journey as a web developer in 2015, and since then, I've continued to grow and evolve as a developer, taking on new challenges and learning the latest technologies along the way. Now, in my early thirties, 7 years after starting my web development journey, I'm building cutting-edge web applications using modern technologies such as Next.js, TypeScript, Nestjs, Tailwindcss, Supabase and much more.</p>
-                        <p>I am very much a progressive thinker and enjoy working on products end to end, from ideation all the way to development.</p>
-                        <p>When I'm not in full-on developer mode, you can find me hovering around on twitter or on indie hacker, witnessing the journey of early startups or enjoying some free time. You can follow me on Twitter where I share tech-related bites and build in public, or you can follow me on GitHub.</p>
-                        <p>Finally, some quick bits about me.</p>
-                        <ul>
-                            <li>B.E. in Computer Engineering</li>
-                            <li>Full time freelancer</li>
-                        </ul>
-                        <ul>
-                            <li>Avid learner</li>
-                            <li>Aspiring indie hacker</li>
-                        </ul>
-                        <p>One last thing, I'm available for freelance work, so feel free to reach out and say hello! I promise I don't bite 😉</p>
+                <div class="saqar_information">
+                    <button>About me</button>
+                    <div class="saqar_info">
+                        <img src="./assets/images/about/saqar_img.png" alt="png">
+                        <div class="saqar_curious">
+                            <p>I'm a passionate, <span><a href="https://www.figma.com/@shahsagarm">self-proclaimed designer</a></span> who specializes in full stack development (React.js & Node.js). I am very enthusiastic about bringing the technical and visual aspects of digital products to life. User experience, pixel perfect design, and writing clear, readable, highly performant code matters to me.</p>
+                            <p>I began my journey as a web developer in 2015, and since then, I've continued to grow and evolve as a developer, taking on new challenges and learning the latest technologies along the way. Now, in my early thirties, 7 years after starting my web development journey, I'm building cutting-edge web applications using modern technologies such as Next.js, TypeScript, Nestjs, Tailwindcss, Supabase and much more.</p>
+                            <p>I am very much a progressive thinker and enjoy working on products end to end, from ideation all the way to development.</p>
+                            <p>When I'm not in full-on developer mode, you can find me hovering around on twitter or on indie hacker, witnessing the journey of early startups or enjoying some free time. You can follow me on <span><a href="https://twitter.com/shahsagarm">Twitter</a></span> where I share tech-related bites and build in public, or you can follow me on <span><a href="https://github.com/shahsagarm">GitHub</a></span>.</p>
+                            <p>Finally, some quick bits about me.</p>
+                            <div class="finally">
+                                <ul>
+                                    <li>B.E. in Computer Engineering</li>
+                                    <li>Full time freelancer</li>
+                                </ul>
+                                <ul>
+                                    <li>Avid learner</li>
+                                    <li>Aspiring indie hacker</li>
+                                </ul>
+                            </div>
+                            <p>One last thing, I'm available for freelance work, so feel free to reach out and say hello! I promise I don't bite 😉</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -66,7 +101,54 @@
         </section>
 
         <section id="experience" class="experience">
-            
+            <div class="container">
+                <div class="name_exp">
+                    <h6>Experience</h6>
+                    <p>Here is a quick summary of my most recent experiences:</p>
+                </div>
+                <div class="upwork">
+                    <img src="./assets/images/exp/logo-upwork.svg" alt="svg">
+                    <div class="infor">
+                        <h4>Sr. Frontend Developer</h4>
+                        <ul>
+                            <li>      Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                             <li>Ut pretium arcu et massa semper, id fringilla leo semper.</li>   
+                              <li>Sed quis justo ac magna.</li>  
+                              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>  
+                        </ul>
+                    </div>
+                    <div class="data">
+                        <p>Nov 2021 - Present</p>
+                    </div>
+                </div>
+                <div class="upwork">
+                    <img src="./assets/images/exp/logo-upwork.svg" alt="svg">
+                    <div class="infor">
+                        <h4>Team Lead</h4>
+                        <ul>
+                            <li>Sed quis justo ac magna.</li>
+                             <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>   
+                              <li>Sed quis justo ac magna.</li>  
+                              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>  
+                        </ul>
+                    </div>
+                    <div class="data">
+                        <p>Jul 2017 - Oct 2021</p>
+                    </div>
+                </div>
+                <div class="upwork">
+                    <img src="./assets/images/exp/logo-upwork.svg" alt="svg">
+                    <div class="infor">
+                        <h4>Team Lead</h4>
+                        <ul>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>  
+                        </ul>
+                    </div>
+                    <div class="data">
+                        <p>Dec 2015 - May 2017</p>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <section id="work" class="work">
@@ -87,26 +169,26 @@
                 <p class="connect">What’s next? Feel free to reach out to me if you're looking for a developer, have a query, or simply want to connect.</p>
                 <div class="info">
                     <div class="adres">
-                       <img src="./assets/icons/email.svg" alt="">
+                       <img src="./assets/icons/email.svg" alt="svg">
                         <span>reachsagarshah@gmail.com</span>
-                        <img src="./assets/icons/copy.svg" alt="">
+                        <img src="./assets/icons/copy.svg" alt="svg">
                     </div>
                     <div class="adres">
-                       <img src="./assets/icons/call_me.svg" alt="">
+                       <img src="./assets/icons/call_me.svg" alt="svg">
                         <span>+91 8980500565</span>
-                        <img src="./assets/icons/copy.svg" alt="">
+                        <img src="./assets/icons/copy.svg" alt="svg">
                     </div>
                 </div>
                 <p class="platform">You may also find me on these platforms!</p>
                 <div class="social">
-                    <img src="./assets/icons/githyb.svg" alt="">
-                    <img src="./assets/icons/twiter.svg" alt="">
-                    <img src="./assets/icons/figma.svg" alt="">
+                    <img src="./assets/icons/githyb.svg" alt="svg">
+                    <img src="./assets/icons/twiter.svg" alt="svg">
+                    <img src="./assets/icons/figma.svg" alt="svg">
                 </div>
             </div>
         </div>
         <div class="designer">
-            <img src="./assets/icons/с.svg" alt="">
+            <img src="./assets/icons/с.svg" alt="svg">
             <p>2023 | Designed and coded with ❤️️ by Sagar Shah</p>
         </div>
     </footer>

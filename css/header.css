@@ -1,10 +1,14 @@
 header {
     background: var(--priamry-color);
-    /* position: fixed;
+    position: fixed;
     left: 0;
     right: 0;
     top: 0;
-    z-index: 10; */
+    z-index: 10;
+    opacity: 0.9;
+    backdrop-filter: blur(9.1px);
+    -webkit-backdrop-filter: blur(9.1px);
+
 }
 
 nav {
@@ -20,6 +24,7 @@ nav .dowload {
     justify-content: space-around;
     align-items: center;
 }
+
 
 nav .dowload ul {
     display: flex;
@@ -38,6 +43,7 @@ nav .dowload ul li a {
     /* 150% */
 }
 
+
 button {
     margin-left: 16px;
     display: flex;
@@ -48,8 +54,13 @@ button {
     border-radius: 12px;
     background: var(--gray-dark-900);
     border: none;
-    cursor: pointer;
+    color: var(--dark-storm-gray);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
 }
-header img{
+
+header img {
     cursor: pointer;
 }

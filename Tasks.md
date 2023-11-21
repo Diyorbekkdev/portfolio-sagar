@@ -18,7 +18,7 @@ Ranglardan yoki umumiy designdan foydalanayotgan bo'lsangiz variables lardan foy
 
 ```
     - Alisher
-        Hero
+        Hero-`lgf'f `
 ```
 
 ``` 
