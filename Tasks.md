@@ -47,4 +47,13 @@ Ranglardan yoki umumiy designdan foydalanayotgan bo'lsangiz variables lardan foy
 ```
 
 
-
+```
+    Bugs
+        Ruslan
+            - Headerdagi buttonga cursor pointer ✅
+            - Navlinklarga hover qoyish kerak ✅
+            - Logoni bossok hero sectionga jumping ✅
+            - About sectioniga yuqorisiga padding berish kerak -
+        Alisher
+            - Hero sectionga padding qoshish kerak ✅
+```

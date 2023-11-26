@@ -19,20 +19,20 @@ nav {
     justify-content: space-between;
 }
 
-nav .dowload {
+nav .download {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
 
-nav .dowload ul {
+nav .download ul {
     display: flex;
     gap: 24px;
     margin-right: 48px;
 }
 
-nav .dowload ul li a {
+nav .download ul li a {
     color: var(--cloudy-sky-gray);
     /* Body2/Medium - All */
     font-family: Inter;
@@ -40,9 +40,40 @@ nav .dowload ul li a {
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
+    --tw-text-opacity: 1;
+    /* color: rgb(var(--app-gray-600)/var(--tw-text-opacity)); */
     /* 150% */
+    transition: .3s;
 }
 
+
+
+li a:hover {
+    /* width: 1%; */
+    /* filter: drop-shadow(0 0 15px #fff); */
+    color: #fff;
+    text-shadow: 
+        0 0 1px #fff,
+        /* 0 0 3px #fff, */
+        0 0 1px #fff,
+        0 0 1px #fff;
+}
+.download img{
+    transition: .3s;
+    border-left: 1px solid #fff;
+    padding-left: 24px;
+    margin-left: -24px;
+}
+.download img:hover{
+    color: aliceblue;
+    filter: drop-shadow(0 0 25px #fff);
+}
+.hamburger__menu{
+    display: none;
+    background: transparent;
+    outline: none;
+    border: none;
+}
 
 button {
     margin-left: 16px;
@@ -59,8 +90,29 @@ button {
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
+    cursor: pointer;
 }
 
 header img {
     cursor: pointer;
+}
+
+
+/* Responsive style for header */
+@media (max-width: 700px){
+    header .download ul{
+        display: none;
+    }
+    header .download img{
+        border-left: none;
+    }
+}
+
+@media (max-width: 400px){
+    header .download {
+        display: none;
+    }
+    .hamburger__menu{
+        display: block;
+    }
 }
