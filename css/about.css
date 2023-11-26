@@ -1,6 +1,6 @@
 .about__us {
     background: var(--dark-storm-gray);
-
+    padding-top: 96px;
 }
 
 .saqar_information {
@@ -33,12 +33,28 @@
     align-items: flex-start;
     gap: 192px;
 }
-
+.foto{
+    width: 100%;
+}
 .saqar_info img {
     display: flex;
     min-width: 444px;
     align-items: start;
     justify-content: start;
+    width: 100%;
+}
+
+.saqar_information .saqar_700 {
+    display: none;
+    
+}
+
+.saqar_curious h1 {
+    color: var(--gray-dark-900);
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: -0.6px;
 }
 
 .saqar_curious p {
@@ -59,11 +75,11 @@
     text-decoration-line: underline;
     transition: .3s;
 }
-.saqar_curious p span:hover{
+
+.saqar_curious p span:hover {
     color: #fff;
-    text-shadow: 
+    text-shadow:
         0 0 1px #fff,
-        /* 0 0 3px #fff, */
         0 0 1px #fff,
         0 0 1px #fff;
 }
@@ -83,4 +99,33 @@
     line-height: 24px;
     margin: 10px;
     list-style-type: disc;
+}
+
+@media (max-width: 800px) {
+    .saqar_information img {
+        display: none;
+    }
+
+    .saqar_information .saqar_700 {
+        display: block;
+        margin: auto;
+    }
+
+    .saqar_info {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+@media (max-width: 450px){
+    .foto  {
+        margin: auto;
+        max-width: 100%;
+    }
+    .saqar_700{
+        max-width: 100%;
+    }
+    .saqar_info{
+        width: 100%;
+        padding: 5px 0;
+    }
 }
