@@ -2,8 +2,6 @@
     background:var(--priamry-color, #030712);
     padding-top: 96px;
     padding-bottom: 96px;
-    padding-left: 80px;
-    padding-right: 80px;
 }
 
 .skilss_btn{
@@ -27,17 +25,27 @@
 }
 
 .skills_icons_first_row{
-    display: flex;
-    justify-content: space-around; 
-    margin-bottom: 48px;
-}
-
-.skills_icons_row_end{
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    place-items: center;
+    row-gap: 48px;
+   
 }
 
 .icons_cursor{
     cursor: pointer;
+}
+
+@media (max-width: 930px){
+    .skills_icons_first_row{
+        grid-template-columns: repeat(4, 1fr);
+        row-gap: 30px;
+    }
+}
+
+@media  (max-width: 405px) {
+    .skills_icons_first_row{
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
