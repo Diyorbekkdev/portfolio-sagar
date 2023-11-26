@@ -2,7 +2,7 @@
     outline: none;
 }
 .hero{
-    padding-top: 96px;
+    padding-top: 150px;
     padding-bottom: 96px;
     background: var(--gray-dark-default, #030712);
 }
