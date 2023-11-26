@@ -1,0 +1,44 @@
+.skilss{
+    background:var(--priamry-color, #030712);
+    padding-top: 96px;
+    padding-bottom: 96px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.skilss_btn{
+    cursor: pointer;
+    border: none;
+    width: 75px;
+    height: 28px;
+    padding: 4px, 20px, 4px, 20px;
+    border-radius: 12px;
+    background:var(--wet-asphalt-gray, #374151);
+    color:var(--cloudy-sky-gray, #D1D5DB);
+}
+
+.skilss_hero_text p{
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+.skilss_hero_text{
+    text-align: center;
+    color:var(--cloudy-sky-gray, #D1D5DB) ;
+}
+
+.skills_icons_first_row{
+    display: flex;
+    justify-content: space-around; 
+    margin-bottom: 48px;
+}
+
+.skills_icons_row_end{
+    display: flex;
+    justify-content: space-around;
+}
+
+.icons_cursor{
+    cursor: pointer;
+}
+
