@@ -33,7 +33,7 @@
     font-weight: 400;
     line-height: 24px; 
     color: var(--gray-dark-600, #D1D5DB);
-    width: 768px;
+    max-width: 768px;
     margin-bottom: 48px;
     
 }
@@ -89,8 +89,14 @@
     }
 }
 @media (max-width:700px) {
-    .conyainer{
-        width: 700px;
+    .container{
+        max-width: 700px;
+    }
+    .desctop-face{
+        display: none;
+    }
+    .media-face{
+        display: block;
     }
     .advice{
         max-width: 680px;
