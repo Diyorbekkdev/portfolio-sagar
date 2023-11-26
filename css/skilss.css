@@ -7,11 +7,10 @@
 }
 
 .skilss_btn{
+    display: inline;
     cursor: pointer;
     border: none;
-    width: 75px;
-    height: 28px;
-    padding: 4px, 20px, 4px, 20px;
+    padding: 4px 20px;
     border-radius: 12px;
     background:var(--wet-asphalt-gray, #374151);
     color:var(--cloudy-sky-gray, #D1D5DB);

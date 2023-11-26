@@ -55,5 +55,5 @@ Ranglardan yoki umumiy designdan foydalanayotgan bo'lsangiz variables lardan foy
             - Logoni bossok hero sectionga jumping ✅
             - About sectioniga yuqorisiga padding berish kerak -
         Alisher
-            - Hero sectionga padding qoshish kerak 
+            - Hero sectionga padding qoshish kerak ✅
 ```
