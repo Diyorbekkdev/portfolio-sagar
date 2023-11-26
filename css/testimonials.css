@@ -11,15 +11,15 @@
     padding: 4px 20px;
     cursor: pointer;
     border: none;
-    color: var(--cloudy-sky-gray, #D1D5DB);
-    background: var(--wet-asphalt-gray, #374151);
+    color: var(--cloudy-sky-gray);
+    background: var(--wet-asphalt-gray);
     padding: 4px, 20px, 4px, 20px;
     border-radius: 12px;
 }
 
 .testimonials_hero_text{
     text-align: center;
-    color: var(--cloudy-sky-gray, #D1D5DB);
+    color: var(--cloudy-sky-gray);
 }
 
 .testimonials_hero_text p{
@@ -39,14 +39,6 @@
     margin-top: 24px;
     margin-bottom: 24px;
 }
-
-/* .cards_box:hover .img */
-    
-
-
-/* .cards_box h1{
-    
-} */
 
 #similar_cards{
     background: var(--light-storm-gray, #1F2937);

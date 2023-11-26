@@ -12,8 +12,10 @@
     border: none;
     padding: 4px 20px;
     border-radius: 12px;
-    background:var(--wet-asphalt-gray, #374151);
-    color:var(--cloudy-sky-gray, #D1D5DB);
+    background: var(--wet-asphalt-gray, #374151);
+    padding: 4px 10px 4px 10px;
+    cursor: pointer;
+    margin-bottom: 16px;
 }
 
 .skilss_hero_text p{
