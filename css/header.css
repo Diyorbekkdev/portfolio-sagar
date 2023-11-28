@@ -41,20 +41,15 @@ nav .download ul li a {
     font-weight: 500;
     line-height: 24px;
     --tw-text-opacity: 1;
-    /* color: rgb(var(--app-gray-600)/var(--tw-text-opacity)); */
-    /* 150% */
     transition: .3s;
 }
 
 
 
 li a:hover {
-    /* width: 1%; */
-    /* filter: drop-shadow(0 0 15px #fff); */
     color: #fff;
     text-shadow: 
         0 0 1px #fff,
-        /* 0 0 3px #fff, */
         0 0 1px #fff,
         0 0 1px #fff;
 }
@@ -68,11 +63,8 @@ li a:hover {
     color: aliceblue;
     filter: drop-shadow(0 0 25px #fff);
 }
-.hamburger__menu{
+.menu{
     display: none;
-    background: transparent;
-    outline: none;
-    border: none;
 }
 
 button {
@@ -97,22 +89,29 @@ header img {
     cursor: pointer;
 }
 
-
-/* Responsive style for header */
 @media (max-width: 700px){
-    header .download ul{
+    header .dowload ul{
         display: none;
     }
-    header .download img{
-        border-left: none;
+    header .dowload img{
+        border: none;
+    }
+}
+@media (max-width: 400px){
+    header .dowload{
+        display: none;
+    }
+    header .menu{
+        display: block;
     }
 }
 
-@media (max-width: 400px){
-    header .download {
-        display: none;
-    }
-    .hamburger__menu{
-        display: block;
-    }
+
+/* Dark mode style  */
+body.dark header{
+    background: #fff;
+}
+
+body.dark header ul li a{
+    color: #000;
 }
